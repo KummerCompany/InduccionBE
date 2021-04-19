@@ -3,7 +3,10 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	var a float64
@@ -24,7 +27,12 @@ func main() {
 
 	fmt.Println("A/B es igual a:", a/b)
 
-	//Ab potencia// pow
-	//Raíz de A // sqrt
+	c := math.Pow(a, b)
+
+	fmt.Println("A elevado a B es igual a:", c)
+
+	d := math.Sqrt(a)
+
+	fmt.Println("La raiz cuadrada de A es igua a:", d)
 
 }
