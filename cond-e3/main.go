@@ -16,8 +16,7 @@ func main() {
 
 	if a > b {
 		fmt.Println("El nombre mas grande es: ", a)
-	}
-	if b > a {
+	} else {
 		fmt.Println("El nombre mas grande es:", b)
 	}
 
