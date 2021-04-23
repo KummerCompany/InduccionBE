@@ -28,7 +28,7 @@ func main() {
 
 	} else {
 
-		fmt.Println("Usted NO se encuentra en la población económicamente activa")
+		fmt.Println("Usted NO se encuentra en la poblacion económicamente activa")
 	}
 
 	if a == lopez {
