@@ -3,18 +3,25 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 
-	var a string
-	var b int
+	var (
+		a string
+		b int
+	)
 
 	fmt.Println("Ingrese su apellido: ")
 	fmt.Scanf("%s/n", &a)
 
 	fmt.Println("Ingrese su edad: ")
 	fmt.Scanf("%d/n", &b)
+
+	lopez := strings.ToLower("Lopez")
 
 	if b >= 18 && b <= 64 {
 		fmt.Println("Usted se encuentra en la población económicamente activa")
@@ -23,7 +30,8 @@ func main() {
 
 		fmt.Println("Usted NO se encuentra en la población económicamente activa")
 	}
-	if a == "lopez" || a == "LOPEZ" || a == "Lopez" {
+
+	if a == lopez {
 		fmt.Println("Usted tiene una fortuna pendiente con el Rey de Nigeria")
 
 	}
