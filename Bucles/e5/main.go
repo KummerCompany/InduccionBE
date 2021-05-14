@@ -7,7 +7,7 @@ import "fmt"
 
 func main() {
 	var value int
-	val := make([]int, 11)
+	val := make([]int, 10)
 
 	for i := 0; i < 10; i++ {
 		fmt.Printf("\nIngrese su número %d: ", i+1)
