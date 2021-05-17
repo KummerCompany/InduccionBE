@@ -39,5 +39,5 @@ func main() {
 		}
 
 	}
-	fmt.Printf("En el arreglo %v\nEl número menor es %v. \nY el mayor es %v\n", ages, names[min_pos], names[max_pos])
+	fmt.Printf("La persona de menor edad es: %v. \nY el de mayor edad es: %v\n", names[min_pos], names[max_pos])
 }
