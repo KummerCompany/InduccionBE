@@ -1,4 +1,4 @@
-//Ejercicio dos - Funciones
+//Ejercicio tres - Funciones
 //Author: Melina Griffo
 
 package main
@@ -6,14 +6,12 @@ package main
 import "fmt"
 
 func main() {
-
 	y := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
-	z := foo(y...)
+	z := bar(y)
 	fmt.Println(z)
-
 }
 
-func foo(x ...int) int {
+func bar(x []int) int {
 	suma := 0
 
 	for _, v := range x {
